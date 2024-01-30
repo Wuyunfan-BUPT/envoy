@@ -36,7 +36,7 @@ else
   ENVOY_DOCKER_OPTIONS+=(-u root:root)
   DOCKER_USER_ARGS=()
   DOCKER_GROUP_ARGS=()
-  DEFAULT_ENVOY_DOCKER_BUILD_DIR=./envoy-docker-build
+  DEFAULT_ENVOY_DOCKER_BUILD_DIR=./
   USER_UID="$(id -u)"
   USER_GID="$(id -g)"
   if [[ -n "$ENVOY_DOCKER_IN_DOCKER" ]]; then
